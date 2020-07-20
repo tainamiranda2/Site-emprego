@@ -18,3 +18,8 @@ footer{
 .universitarios{
     padding: 15 10px;
 }
+form, label, button, input{
+    border-radius: 16px;
+    background-color: tomato;
+
+}

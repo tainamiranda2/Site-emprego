@@ -21,7 +21,7 @@ app.listen(3000, () => {
     console.log("Sevidor rodando de boas")
    })
 
-app.get("/formularios/cadastro", (req, res) => {
+app.get("/formularios/login", (req, res) => {
     res.render('formularios/login')
 })
 

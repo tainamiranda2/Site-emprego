@@ -1,9 +1,22 @@
-<!--<%- include ('/partions/head'); %>-->
-<!--<%- include ('/partions/nav'); %>-->
+<%- include ('../partions/head'); %>
+<%- include ('../partions/nav'); %>
 
 <form>
-    <label>Seu nome ou email:</label>
-    <input placeholder="Ex: Caio_Gomes1">
+    <h2>Faça o login</h2>
+    <div class="form-group">
+    <label for="email">Email:</label>
+    <input id="email1" type="email" placeholder="Ex: Caio_Gomes1" class="form-control">
+<small class="form-text text-muted">Dados seguos</small>
+</div>
+<div class="form-group">
+    <label for="senha">Sua senha:</label>
+    <input id="senha1" type="password" placeholder="Ex: 148627" class="form-control">
+</div>
+<div class="form-group form-check">
+<input type="checkbox" class="form-check-input" id="che1">
+<label class="form-check-label" for="che">Click aqui</label>
+<button type="submit" class="btn btn-primary">Enviar</button>
+</div>
 </form>
 
-<!--<%- include ('/partions/footer'); %> -->
+<%- include ('../partions/footer'); %> 
